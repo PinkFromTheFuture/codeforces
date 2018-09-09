@@ -14,7 +14,7 @@ for i in range(0,n):
     # room_capacity.append(qi)
 
     # count how many rooms has free place for both George and Alex
-    if qi - pi > 2:
+    if qi - pi >= 2:
         number_of_rooms_where_george_and_alex_can_move_in += 1
 
 # Output
