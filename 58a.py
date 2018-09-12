@@ -25,8 +25,6 @@ while (s_iterator < len(s) and hello_iterator < len(hello_string)):
     # continue iterating through s
     s_iterator += 1
 
-
-
 # Output
 # If Vasya managed to say hello, print "YES", otherwise print "NO".
 if hello_iterator == len(hello_string):
